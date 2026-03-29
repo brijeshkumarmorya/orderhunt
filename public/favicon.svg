@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="48" y2="48">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back cards -->
+  <rect x="6" y="10" width="24" height="28" rx="6" fill="url(#grad)" opacity="0.25"/>
+  <rect x="12" y="6" width="24" height="28" rx="6" fill="url(#grad)" opacity="0.45"/>
+
+  <!-- front card -->
+  <rect x="18" y="10" width="24" height="28" rx="6" fill="url(#grad)"/>
+
+  <!-- number -->
+  <text x="30" y="28" text-anchor="middle" font-size="12" font-weight="bold" fill="white">
+    1→10
+  </text>
+</svg>
